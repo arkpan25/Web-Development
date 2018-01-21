@@ -8,15 +8,18 @@ h1 {
   margin-bottom: 15px;
   text-align: center;
 }
-div.webSection {
+.webSection   {
 
   position: relative;
 
 }
 
-h2.Web {
-  background: red;
+.DatabaseSection{
+  position: relative;
 }
+
+
+
 h2{
   position: absolute;
   right: 21px;
@@ -24,6 +27,14 @@ h2{
   border: 2px solid black;
   font-family: 'Times New Roman', Times, serif;
   
+}
+
+h2.Web {
+  background: red;
+}
+
+h2.Database{
+  background: palegreen;
 }
 p.content {
   border: 3px solid black;
