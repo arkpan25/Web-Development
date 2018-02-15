@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- jQurey -->
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.js"
+  	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  	crossorigin="anonymous"></script>
+
+  	<!-- js file -->
+  	<script type="text/javascript" src="babyname.js"></script>
+
+	<title>baby name</title>
+
+	<h1>baby name</h1>
+</head>
+<body>
+	<div id="result">
+	</div>
+	<form action="babynames.php" method="POST">
+		<select id="year" name="year" size="1">
+			<option>2005</option>
+			<option>2006</option>
+			<option>2007</option>
+			<option>2008</option>
+			<option>2009</option>
+			<option>2010</option>
+			<option>2011</option>
+			<option>2012</option>
+			<option>2013</option>
+			<option>2014</option>
+			<option>2015</option>
+		</select>
+
+		<select id="gender">
+			<option>male</option>
+			<option>female</option>
+		</select>
+
+		<button id="search">Search</button>
+	</form>
+</body>
+</html>
