@@ -1,5 +1,4 @@
-// netID: yxp170430
-// Name: Yize Pang
+
 
 
 function validateUsername() {
